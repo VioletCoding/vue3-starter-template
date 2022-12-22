@@ -11,7 +11,8 @@ export default defineConfig({
         open: true,
         proxy: {
             '/api': {
-                target: '',
+                // 后端服务器地址
+                target: 'http://localhost:8080',
                 changeOrigin: true,
                 ws: true,
                 rewrite: path => path.replace(/^\/api/, ''),
