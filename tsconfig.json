@@ -15,7 +15,10 @@
         "sourceMap": true,
         "baseUrl": ".",
         "paths": {},
-        "types": ["vite/client", "element-plus/global"]
+        "types": [
+            "vite/client"
+            // "element-plus/global"
+        ]
     },
     "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
     "references": [

@@ -1,13 +1,14 @@
 <script setup lang="ts">
-    import { ElConfigProvider } from 'element-plus';
-    import zhCn from 'element-plus/dist/locale/zh-cn.mjs';
-    import HelloWorld from './components/HelloWorld.vue';
+import { ElConfigProvider } from 'element-plus';
+import zhCn from 'element-plus/dist/locale/zh-cn.mjs';
+import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
     <el-config-provider
         :z-index="3000"
         :locale="zhCn">
+        <el-button type="primary">测试按钮</el-button>
         <div>
             <a
                 href="https://vitejs.dev"
@@ -31,17 +32,17 @@
 </template>
 
 <style scoped>
-    .logo {
-        height: 6em;
-        padding: 1.5em;
-        will-change: filter;
-    }
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+}
 
-    .logo:hover {
-        filter: drop-shadow(0 0 2em #646cffaa);
-    }
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
 
-    .logo.vue:hover {
-        filter: drop-shadow(0 0 2em #42b883aa);
-    }
+.logo.vue:hover {
+    filter: drop-shadow(0 0 2em #42b883aa);
+}
 </style>
