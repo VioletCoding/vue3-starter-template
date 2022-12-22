@@ -9,6 +9,7 @@ import HelloWorld from './components/HelloWorld.vue';
         :z-index="3000"
         :locale="zhCn">
         <el-button type="primary">测试按钮</el-button> -->
+    <p class="text-3xl font-bold underline cursor-pointer">TailwindCSS</p>
     <div>
         <a
             href="https://vitejs.dev"
