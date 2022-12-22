@@ -6,7 +6,7 @@ import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '.',
+    base: './',
     plugins: [
         vue(),
         // 按需加载ElementPlus组件
