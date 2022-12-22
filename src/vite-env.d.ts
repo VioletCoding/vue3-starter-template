@@ -5,4 +5,4 @@ declare module '*.vue' {
     export default VueComponent;
 }
 
-declare module 'element-plus/dist/locale/zh-cn.mjs';
+// declare module 'element-plus/dist/locale/zh-cn.mjs';
