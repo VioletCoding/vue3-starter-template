@@ -1,6 +1,7 @@
 {
   "name": "vue3-starter-template",
   "private": true,
+  "author": "violet",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
